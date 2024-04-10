@@ -5,7 +5,7 @@
 }
 
 body{
-    width: 1200px;
+    width: 1500px;
     margin: 0 auto;
     font-family: Arial, sans-serif; 
 }
@@ -31,26 +31,29 @@ button{
 a{
     text-decoration: none;
 }
-.head-box{
+header nav.head-box{
     background-color: #255ee9;
     display: flex;
     flex-direction: row;
-    padding: 1rem;
+    padding: 1.5rem 2rem;
     justify-content: space-evenly;
-}
-.link-nav * {
-    margin-right: 2rem;
     
 }
-.jumbotron{
+li.link-nav a  {
+    margin-top: 1rem;
+    margin-left: 2rem;
+
+}
+header section.jumbotron{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 7rem 7rem 7rem;
+    padding: 6rem;
     background-image: url("../img/jumbo.png");
     background-size: cover;
     color: white;
+    font-size: 1.5rem;
 }
 
 .jumbotron p{
@@ -67,16 +70,32 @@ a{
 
 .main-box{
     display: flex;
-    
     flex-direction: column;
 }
 .info-section{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 3rem;
+    justify-content: center;
+    padding: 4rem;
 }
+.img-column{
+    width: 50%;
     
+}
+.text-column{
+    width: 25%;
+    padding-right: 4rem;
+    
+}
+.text-column h1{
+    font-size: 2rem;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+}
+.text-column p{
+    font-size: 1.4rem;
+}
+
 .white-section{
     background-color: #ffffff;
 }
@@ -91,6 +110,13 @@ a{
     padding: 3rem;
     align-items: center;
     justify-content: space-between;
+
+}
+.section-column h1{
+    font-size: 2rem;
+}
+.section-column p{
+    width: 60%;
 }
 
 h1,
