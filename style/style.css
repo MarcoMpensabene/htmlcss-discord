@@ -39,25 +39,25 @@ header nav.head-box{
     justify-content: space-evenly;
     
 }
-li.link-nav a  {
-    margin-top: 1rem;
+ul li.link-nav a {
     margin-left: 2rem;
-
+    margin-top: 0.5rem;
 }
 header section.jumbotron{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 6rem;
+    padding: 10rem;
     background-image: url("../img/jumbo.png");
     background-size: cover;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .jumbotron p{
     width: 58%;
+    font-size: 1rem;
 }
 .button-head{
     display: flex;
@@ -186,4 +186,5 @@ ul,
     border: none;
     background-color: #23272a;
     color: white;
+    margin-left: 1.5rem;
 }
