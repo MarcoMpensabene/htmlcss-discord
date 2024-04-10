@@ -32,7 +32,7 @@ a{
     text-decoration: none;
 }
 .head-box{
-    background-color: #2348a3;
+    background-color: #255ee9;
     display: flex;
     flex-direction: row;
     padding: 1rem;
@@ -42,7 +42,6 @@ a{
     margin-right: 2rem;
     
 }
-
 .jumbotron{
     display: flex;
     flex-direction: column;
@@ -53,7 +52,6 @@ a{
     background-size: cover;
     color: white;
 }
-
 
 .jumbotron p{
     width: 58%;
@@ -69,22 +67,27 @@ a{
 
 .main-box{
     display: flex;
-    border: 1px solid black;
+    
     flex-direction: column;
 }
 .info-section{
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
     justify-content: space-between;
     padding: 3rem;
-    
-
 }
+    
+.white-section{
+    background-color: #ffffff;
+}
+
+.grey-section{
+    background-color: #f6f6f6;
+}
+
 .section-column{
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
     padding: 3rem;
     align-items: center;
     justify-content: space-between;
@@ -108,16 +111,22 @@ footer{
 .list-box{
     display: flex;
     flex-direction: row;
+    width: 65%;
+    padding-right: 4rem;
 }
 
 .info-box{
     margin-left: 2rem;
+    padding-bottom: 2rem;
+    width: 20%;
+    padding-left: 2rem;
 }
 
 ul
 {
     margin-right: 6rem;
     list-style: none;
+    color: #738ada;
 
 }
 
@@ -126,8 +135,8 @@ li a{
 }
 
 ul,
-li{
-    margin-bottom: 1rem;
+.list-box li{
+    margin-bottom: 2rem;
 }
 
 .nav-footer{
@@ -135,6 +144,20 @@ li{
     flex-direction: row;
     justify-content: space-between;
     padding: 1rem 0 1rem;
-    border-top: 1px solid blue;
+    border-top: 1px solid #738ada;
     margin: 0 10rem 0;
+}
+
+.logo *{
+    margin-right: 0.3rem;
+}
+
+.info-box h2{
+    color: #738ada;
+}
+#lingua{
+    margin-bottom: 1.5rem;
+    border: none;
+    background-color: #23272a;
+    color: white;
 }
