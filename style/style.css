@@ -7,8 +7,30 @@
 body{
     width: 1200px;
     margin: 0 auto;
+    font-family: Arial, sans-serif; 
 }
 
+button{
+    height: 2.5rem;
+    border-radius: 1.4rem;
+    padding: 0.5rem;
+    border: none;
+    color: white;
+}
+.black-botton{
+    background-color: #212526;
+    
+}
+.white-botton{
+    background-color: #fdfdfe;
+    color: black;
+}
+.blue-botton{
+    background-color: #738ada;
+}
+a{
+    text-decoration: none;
+}
 .head-box{
     background-color: #2348a3;
     display: flex;
@@ -76,7 +98,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 2rem;
+    padding: 2rem 3rem 1rem;
     margin: 0 auto;
 }
 
@@ -113,4 +135,3 @@ li{
     border-top: 1px solid blue;
     margin: 0 10rem 0;
 }
-
