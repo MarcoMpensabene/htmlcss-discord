@@ -186,5 +186,13 @@ ul,
     border: none;
     background-color: #23272a;
     color: white;
-    margin-left: 1.5rem;
+}
+i{
+    width: 30px;
+    height: 30px;
+}
+
+.info-box img{
+    width: 20px;
+    height: 15px;
 }
